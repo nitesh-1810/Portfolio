@@ -12,8 +12,8 @@ import { useEffect, useState } from "react";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [ratio, setRatio] = useState(window.innerWidth / window.innerHeight);
-  console.log("height", window.innerHeight);
-  console.log("width", window.innerWidth);
+  // console.log("height", window.innerHeight);
+  // console.log("width", window.innerWidth);
 
   useEffect(() => {
     const resizeRatio = () => {
