@@ -9,14 +9,14 @@
     {
       "date": "05/06/2023",
       "title": "Monsoonmate",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "description": "Developed a dynamic weather app featuring real-time weather data using weather API. Providing users with accurate weather information for selected locations. Tech used: Frontend: React.js, Material-UI. API Integration: OpenWeatherMap.",
       "url": "https://monsoonmate.netlify.app/"
     },
 
     {
       "date": "12/06/2023",
       "title": "Task Tracker- TODO",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "description": "Feature of task creation, editing, and deletion capabilities. Added motivational messages upon task completion for user engagement. Utilized React Hooks for state management. Tech used: Frontend: React.js, CSS. Local Storage: Web Storage API",
       "url": "https://tasktracker-todo.netlify.app/"
     },
     {
