@@ -15,7 +15,7 @@ const Home = ({ ratio }) => {
     });
   };
   const animationProjectsCount = () => {
-    animate(0, 500, {
+    animate(0, 5, {
       duration: 1,
       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
     });
@@ -84,15 +84,10 @@ const Home = ({ ratio }) => {
           <aside>
             <article>
               <p>
-                5
-                {ratio < 2 && (
-                  <motion.span
-                    ref={projectCount}
-                    whileInView={animationProjectsCount}
-                  >
-                    500
-                  </motion.span>
-                )}
+                <motion.span
+                  ref={projectCount}
+                  whileInView={animationProjectsCount}
+                ></motion.span>
               </p>
               <span>Projects Done</span>
             </article>
